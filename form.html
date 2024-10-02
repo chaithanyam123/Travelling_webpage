@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("https://images.pexels.com/photos/1661375/pexels-photo-1661375.jpeg");
+        background-repeat: no-repeat ;
+        background-size: cover;
+    }
+    .form{
+        max-width:75%;
+        padding:10px;
+    }
+</style>
+<body>
+    <div id="form">
+    <form>
+        <br><br>
+   <script>
+    function price_details(){
+        document.write("first day visiting the main place");
+        document.write('<br>');
+        document.write("second day side seeing ");
+        document.write('<br>');
+        document.write("5,000 including food expenses!!");
+    }
+    price_details();
+   </script>
+   <br><br>
+        <input type="text">  Enter your name </input>
+        <br> <br>
+        <input type="text">  Enter your number </input>
+        <br> <br>
+        <input type="text">  Enter your G-mail </input>
+        <br> <br>
+        <select name="package" id="package">
+            <option value="Cultural heritage packages">Cultural heritage packages</option>
+            <option value="India packages">India packages</option>
+            <option value="Foreign packages">Foreign packages</option>
+        </select>
+        <br> <br>
+        <input type="text">   Enter the package name</input>
+        <br> <br>
+        <button type="button" onclick="printfun()">SUBMIT</button>
+    </form>
+    <p id="demo" style="color:rgb(22, 7, 95);" style="font-size: large;" ></p>
+    <script>
+        function printfun(){
+            document.getElementById("demo").innerHTML="Happy Journey!!";
+        }
+    </script>
+    </div>
+</body>
+</html>
